@@ -1,5 +1,6 @@
-diccionario = {"Jose":10,"Maria":20,"Pedro":15}
-print("Maria: ",diccionario.get("Maria"))
+diccionario = { "Jose":10,"Maria":20,"Pedro":15}
+print("Maria: ",diccionario.get(20,""))
 
-for c,v in diccionario.items():
-    print(c+"-"+str(v))
+
+valor= "{:0>4d}".format(3333)
+print(type(valor))
